@@ -19,6 +19,11 @@ public class Task13 {
             count++;
         }
 
+        //не се бях сетил. Видях го в решенията в книгата
+        if(num == 0){
+            count++;
+        }
+
         int[] arr = new int[count];
 
         for (int index = 0; index < arr.length; index++) {
