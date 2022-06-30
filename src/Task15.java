@@ -11,7 +11,6 @@ public class Task15 {
             double currentNum = arr[index];
 
             if (Math.abs(currentNum) > Math.abs(biggest)) {
-                big = bigger;
                 bigger = biggest;
                 biggest = arr[index];
             }
